@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-import "./Form.css";
-function Form02() {
+import "../css/Form.css";
+
+function Iletisim() {
   const [form, setForm] = useState({ ad: "", soyad: "", mesaj: "" });
   const { ad, soyad, mesaj } = form;
   console.log("FORM", form);
@@ -53,4 +54,4 @@ function Form02() {
     </div>
   );
 }
-export default Form02;
+export default Iletisim;
